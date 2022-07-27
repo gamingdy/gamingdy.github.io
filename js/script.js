@@ -26,7 +26,7 @@ async function afficherDate()
         var elapsed_time = "";
         elapsed_time += `${days} days, `;
 
-        elapsed_time += `${hours} h: `;
+        elapsed_time += `${hours} h : `;
 
         elapsed_time += `${minutes} min `;
         elapsed_time += `${difference} sec`;
