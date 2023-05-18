@@ -14,10 +14,15 @@ async function afficherDate()
 
         let days = Math.floor(difference/86400);
         difference -= days*86400;
-        let years = "";
+        let years = 0;
         if (days >= 365){
             years = Math.floor(days/365);
             days = days % 365;
+        }
+        let month = 0
+        if (days >= 30){
+            month = Math.floor(days/30);
+            days = days % 30;
         }
 
         const hours = Math.floor(difference / 3600) % 24;
@@ -28,6 +33,7 @@ async function afficherDate()
 
         let elapsed_time = "";
         elapsed_time += `${years} years, `;
+        elapsed_time += `${month} month `;
         elapsed_time += `${days} days `;
 
         elapsed_time += `${hours} h : `;
