@@ -1,5 +1,5 @@
 body {
-	background-color: darkred;
+	background-color: #A023A2;
 }
 
 .dev{
@@ -8,4 +8,8 @@ body {
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+}
+
+h1{
+	color: white;
 }
