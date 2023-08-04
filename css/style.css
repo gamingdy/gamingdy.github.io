@@ -1,4 +1,4 @@
-body {
+.home {
 	background-color: #A023A2;
 }
 
@@ -12,4 +12,21 @@ body {
 
 h1{
 	color: white;
+}
+
+
+a.button:link, a.button:visited {
+	border-radius: 8px;
+	font-size:18px;
+	background-color: #cd00cf;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+a.button:hover, a.button:active {
+	background-color: #FD00FF;
 }
